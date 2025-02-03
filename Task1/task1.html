@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Webpage</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            text-align: center;
+        }
+        h1 {
+            color: #333;
+        }
+        p {
+            font-family: "Georgia", serif;
+            line-height: 1.6;
+            text-align: justify;
+            max-width: 600px;
+            margin: 0 auto 20px;
+        }
+        .image-container {
+            text-align: center;
+            margin: 20px 0;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+        }
+        .caption {
+            font-style: italic;
+            margin-top: 10px;
+        }
+        .styled-button {
+            padding: 10px 20px;
+            border: 2px solid #333;
+            background-color: #fff;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+        .styled-button:hover {
+            background-color: #333;
+            color: #fff;
+        }
+        table {
+            margin: 20px auto;
+            border-collapse: collapse;
+            width: 50%;
+        }
+        th, td {
+            border: 1px solid #333;
+            padding: 10px;
+        }
+        form {
+            margin-top: 20px;
+        }
+        input {
+            padding: 8px;
+            margin: 5px;
+            border: 1px solid #333;
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to My Webpage</h1>
+    <p>A website is a collection of interconnected web pages hosted on a server and accessible via the internet. It is built using HTML for structure, CSS for styling, and JavaScript for interactivity. Websites can serve various purposes, such as providing information, enabling communication, or facilitating online transactions. Users access websites through web browsers like Chrome or Firefox by entering a URL, which directs them to the site's content.</p>
+    <p>When a user visits a website, the browser sends a request to the website's server, which responds by delivering the necessary files. These files include HTML, CSS, JavaScript, and media assets. The browser then interprets and renders these elements to display the website visually. Websites can be static, displaying fixed content, or dynamic, where the content updates based on user interactions and database-driven responses.</p>
+    
+    <div class="image-container">
+        <img src="https://plus.unsplash.com/premium_photo-1732736768092-43a010784507?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" height="400" width="400" alt="Sample Image">
+        <div class="caption">A beautiful snowy mountain .</div>
+    </div>
+    
+    <button class="styled-button">Click Me</button>
+    
+    <table>
+        <tr>
+            <th>Books</th>
+            <th>Author</th>
+            <th>Price</th>
+        </tr>
+        <tr>
+            <td>HTML and CSS: Design and Build Websites</td>
+            <td>Jon Duckett
+            </td>
+            <td>₹2,054</td>
+        </tr>
+        <tr>
+            <td>Learning Web Design</td>
+            <td>Jennifer Robbins</td>
+            <td>₹2,700</td>
+        </tr>
+    </table>
+    
+    <form>
+        <input type="text" placeholder="Enter your name">
+        <input type="email" placeholder="Enter your email">
+        <button type="submit" class="styled-button">Submit</button>
+    </form>
+</body>
+</html>
